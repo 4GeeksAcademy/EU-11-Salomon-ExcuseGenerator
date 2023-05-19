@@ -7,22 +7,22 @@ import "./assets/img/4geeks.ico";
 
 window.onload = () => {
   //write your code here
-  let somebody = ["A monkey", "My girlfriend", "A racoon", "My brother"];
-  let action = ["distroyed", "stole", "broke", "snatched"];
-  let whatever = ["my homework", "the keys", "my motorcycle", "my car"];
-  let when = [
+  const somebody = ["A monkey", "My girlfriend", "A racoon", "My brother"];
+  const action = ["distroyed", "stole", "broke", "snatched"];
+  const whatever = ["my homework", "the keys", "my motorcycle", "my car"];
+  const when = [
     "before the interview",
     "when I was about to go out",
     "during my breakfast",
     "while I was playing videogames"
   ];
 
-  let somebodyExcuse = Math.floor(Math.random() * somebody.length);
-  let actionExcuse = Math.floor(Math.random() * action.length);
-  let whateverExcuse = Math.floor(Math.random() * whatever.length);
-  let whenExcuse = Math.floor(Math.random() * when.length);
+  const somebodyExcuse = Math.floor(Math.random() * somebody.length);
+  const actionExcuse = Math.floor(Math.random() * action.length);
+  const whateverExcuse = Math.floor(Math.random() * whatever.length);
+  const whenExcuse = Math.floor(Math.random() * when.length);
 
-  let excuse =
+  const excuse =
     somebody[somebodyExcuse] +
     " " +
     action[actionExcuse] +
