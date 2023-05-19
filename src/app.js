@@ -7,7 +7,7 @@ import "./assets/img/4geeks.ico";
 
 window.onload = () => {
   //write your code here
-  const somebody = ["A monkey", "My girlfriend", "A racoon", "My brother"];
+  const somebody = ["My dog", "My girlfriend", "A racoon", "My brother"];
   const action = ["distroyed", "stole", "broke", "snatched"];
   const whatever = ["my homework", "the keys", "my motorcycle", "my car"];
   const when = [
